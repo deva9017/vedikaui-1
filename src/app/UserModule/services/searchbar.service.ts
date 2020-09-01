@@ -18,7 +18,7 @@ export class SearchbarService {
   }
   findFunctionhallByNameAndCity(city):Observable<any>
   {
-    return this.http.get('http://localhost:8057/api/functionhallsBy/?city='+city);
+    return this.http.get('http://13.127.250.198:8057/api/functionhallsBy/?city='+city);
   }
  
 }
